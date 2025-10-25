@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "info",
 	version: "1.0.1", 
 	hasPermssion: 0,
-	credits: "Virat saini",
+	credits: "Shivam Saini",
 	description: "Admin and Bot info.",
 	commandCategory: "...",
 	cooldowns: 1,
@@ -24,35 +24,34 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.imgur.com/jhihupS.jpeg"];
-var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)𝆺꯭𝅥☔⟶᯦꯭⚘Mëla Baçhä𝆺꯭𝅥⎯꯭̽⟶᯦꯭⚘◈🌷❤️🦋
+["https://i.imgur.com/hDDrvwg.jpeg"];
+var callback = () => api.sendMessage({body:`⏤͟͟͞͞❥ Th͜͡ɜ Uƞdɛ͜͡ɼwo͜͡ɼɭd Do͜͡ƞ Sʜɩv͜͡ʌɱ̽ Hɜ͜͡rɜ̽ ♛➺ 🫨👿
 
-☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
+☄️𝐁𝐎𝐓 𝐍𝐀𝐌𝐄☄️  ${global.config.BOTNAME}
 
-🔥Bot Admin 𝆺꯭𝅥☔⟶᯦꯭⚘Mëla Baçhä𝆺꯭𝅥⎯꯭̽⟶᯦꯭⚘◈🌷❤️🦋
+🔥𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍 𝆺𝅥☔❃ 𝐒𝐇𝐈𝐕𝐀𝐌 𝐒𝐀𝐈𝐍𝐈 😈
 
-🙈bot andmin owner facebook id link🙈➪ https://www.facebook.com/profile.php?id=61582335934293 💞🕊️
+🙈𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍 𝐎𝐖𝐍𝐄𝐑 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 𝐋𝐈𝐍𝐊 👻➪ https://www.facebook.com/profile.php?id=61582547945474 💞🕊️
 
-👋For Any Kind Of Help Contact On Telegram  Username 👉VIRAT SAINI😇
+👋𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍 𝐎𝐖𝐍𝐄𝐑 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊 👻➪ https://t.me/+4PGA0R8RLl43MDY1
 
 ✧══════•❁❀❁•══════✧
 
-🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
+🌸 🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
 
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝆺꯭𝅥☔⟶᯦꯭⚘Mëla Baçhä𝆺꯭𝅥⎯꯭̽⟶᯦꯭⚘◈🌷❤️🦋
+♥️𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑♥️ ⤾➝𝐒𝐇𝐈𝐕𝐀𝐌 𝐒𝐀𝐈𝐍𝐈 ↬ X⤹🩷😈🩵󱢏
 
-🥳UPTIME🥳
+🥳𝐔𝐏𝐓𝐈𝐌𝐄🥳
 
-🌪️Today is🌪️ ☞︎︎︎☜︎︎︎✰ ${juswa} 
+🌪️𝐓𝐎𝐃𝐀𝐘 𝐈𝐒🌪️ ☞︎︎︎☜︎︎︎✰ ${juswa} 
 
-⚡Bot is running⚡ ${hours}:${minutes}:${seconds}.
+⚡𝐁𝐎𝐓 𝐈𝐒 𝐑𝐔𝐍𝐍𝐈𝐍𝐆⚡ ${hours}:${minutes}:${seconds}.
 
-✅Thanks for using ${global.config.BOTNAME} Bot🖤
-
+✅𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 ${global.config.BOTNAME} 𝐁𝐎𝐓🖤
 
 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒 VIRAT  🌿✰✧✧✧✧✦🌸
+🌸✦✧✧✰✰🍒𝐒𝐇𝐈𝐕𝐀𝐌 𝐒𝐀𝐈𝐍𝐈🌿✰✰✧✧✦🌸
 ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 `,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
